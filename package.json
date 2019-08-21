@@ -1,0 +1,48 @@
+{
+  "name": "@icedesign/lite-scaffold",
+  "version": "3.0.5",
+  "description": "该模板适用于从 0 到 1 开始搭建项目，内置基础的页面，路由和菜单展示",
+  "dependencies": {
+    "@alifd/next": "^1.x",
+    "@ice/stark": "^0.1.2",
+    "@icedesign/container": "^1.x",
+    "@icedesign/img": "^1.x",
+    "@icedesign/layout": "^1.x",
+    "@icedesign/theme": "^1.0.0",
+    "axios": "^0.17.1",
+    "classnames": "^2.2.5",
+    "enquire-js": "^0.1.2",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.5.8",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "@ice/spec": "^0.1.1",
+    "eslint": "^6.0.1",
+    "ice-plugin-fusion": "^0.1.4",
+    "ice-plugin-moment-locales": "^0.1.0",
+    "ice-plugin-multi-pages": "^0.1.0",
+    "ice-scripts": "^2.0.0",
+    "stylelint": "^10.1.0"
+  },
+  "scripts": {
+    "start": "ice-scripts dev",
+    "build": "ice-scripts build",
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint --cache --ext .js,.jsx ./",
+    "stylelint": "stylelint ./**/*.scss"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "iceworks": {
+    "type": "react",
+    "adapter": "adapter-react-v3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ice-lab/react-materials/tree/master/scaffolds/ice-design-lite"
+  }
+}
